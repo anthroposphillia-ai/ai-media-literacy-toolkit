@@ -1,0 +1,9 @@
+# 책 원고 저장소(별도 git repo) — 이 툴킷 리포에서는 제외
+위키독스_책/
+
+# 임시·생성물
+__pycache__/
+*.pyc
+edgeprof/
+*.tmp
+배포본.zip
