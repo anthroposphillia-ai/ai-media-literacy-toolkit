@@ -40,8 +40,13 @@
 
 ## 2. 갱신 (분기 1회 권장)
 
+**가장 쉬운 방법** — 프로젝트 폴더의 **`refresh.cmd` 를 더블클릭**하면 됩니다.
+(Python 자동 탐색 → 새 사건 감지 → 페이지 재생성 → 검증 → 변경이 있을 때만 push)
+
+명령으로 하려면:
+
 ```bash
-python _tools/refresh_all.py          # 재생성 + 검증만
+python _tools/refresh_all.py          # 재생성 + 검증만 (미리보기)
 python _tools/refresh_all.py --push   # 검증 통과 시 커밋·푸시
 ```
 
